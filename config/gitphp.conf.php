@@ -14,10 +14,18 @@
  * projectroot
  * Full directory on server where projects are located
  */
+ 
+ /*
+ local
 $gitphp_conf['projectroot'] = 'C:\Remote';
 
 $gitphp_conf['gitbin'] = 'C:\Users\jcstin02\AppData\Local\Programs\Git\bin\git.exe';
+*/
 
+//alex
+$gitphp_conf['projectroot'] = '/opt/git/';
+
+$gitphp_conf['gitbin'] = 'git';
 
 /*
  * cache
